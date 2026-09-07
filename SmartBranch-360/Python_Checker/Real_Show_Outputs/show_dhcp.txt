@@ -1,0 +1,33 @@
+R1-BRANCH#show ip dhcp pool
+
+Pool EMPLOYEE :
+
+ Utilization mark (high/low)    : 100 / 0
+ Subnet size (first/next)       : 0 / 0
+ Total addresses                : 254
+ Leased addresses               : 5
+ Excluded addresses             : 4
+
+Pool GUEST :
+
+ Utilization mark (high/low)    : 100 / 0
+ Subnet size (first/next)       : 0 / 0
+ Total addresses                : 254
+ Leased addresses               : 2
+ Excluded addresses             : 4
+
+Pool SERVER :
+
+ Utilization mark (high/low)    : 100 / 0
+ Subnet size (first/next)       : 0 / 0
+ Total addresses                : 254
+ Leased addresses               : 0
+ Excluded addresses             : 4
+
+Pool MANAGEMENT :
+
+ Utilization mark (high/low)    : 100 / 0
+ Subnet size (first/next)       : 0 / 0
+ Total addresses                : 254
+ Leased addresses               : 0
+ Excluded addresses             : 4

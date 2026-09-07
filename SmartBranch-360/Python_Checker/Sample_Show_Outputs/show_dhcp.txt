@@ -1,0 +1,13 @@
+R1-BRANCH#show running-config | section dhcp
+ip dhcp pool EMPLOYEE
+ network 10.10.10.0 255.255.255.0
+ default-router 10.10.10.1
+ip dhcp pool GUEST
+ network 10.10.20.0 255.255.255.0
+ default-router 10.10.20.1
+ip dhcp pool SERVER
+ network 10.10.30.0 255.255.255.0
+ default-router 10.10.30.1
+ip dhcp pool MANAGEMENT
+ network 10.10.99.0 255.255.255.0
+ default-router 10.10.99.1

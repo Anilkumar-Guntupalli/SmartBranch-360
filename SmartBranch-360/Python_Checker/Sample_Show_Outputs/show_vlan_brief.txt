@@ -1,0 +1,8 @@
+SW2-ACCESS#show vlan brief
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Fa0/11, Fa0/12
+10   EMPLOYEE                         active    Fa0/2, Fa0/3, Fa0/4, Fa0/5, Fa0/6
+20   GUEST                            active    Fa0/7, Fa0/8
+30   SERVER                           active    Fa0/3
+99   MANAGEMENT                       active    Fa0/9, Fa0/10

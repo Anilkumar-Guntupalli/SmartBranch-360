@@ -1,0 +1,27 @@
+R1-BRANCH#show access-lists
+
+Standard IP access list 10
+
+    10 permit host 10.10.99.10
+
+Extended IP access list GUEST_RESTRICT
+
+    10 permit udp any eq bootpc any eq bootps (4 match(es))
+
+    20 deny ip 10.10.20.0 0.0.0.255 10.10.30.0 0.0.0.255
+
+    30 deny ip 10.10.20.0 0.0.0.255 10.10.99.0 0.0.0.255
+
+    40 deny ip 10.10.20.0 0.0.0.255 10.10.10.0 0.0.0.255
+
+    50 permit ip 10.10.20.0 0.0.0.255 any
+
+Standard IP access list 1
+
+    10 permit 10.10.10.0 0.0.0.255
+
+    20 permit 10.10.20.0 0.0.0.255
+
+    30 permit 10.10.30.0 0.0.0.255
+
+    40 permit 10.10.99.0 0.0.0.255
